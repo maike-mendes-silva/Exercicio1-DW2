@@ -1,0 +1,34 @@
+.container_main{
+    background-color: black;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.titulo1_main{
+    text-align: center;
+    padding: 30px;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: gold;
+}
+
+.item_galeria{
+    vertical-align: top;
+    width: 25%;
+    display: inline-block;
+    padding: 10px 50px 50px 50px;
+}
+
+.foto_galeria{
+    width: 100%;
+    height: 189.7px;
+}
+
+li p{
+    padding-top: 10px;
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    color: lightyellow;
+}

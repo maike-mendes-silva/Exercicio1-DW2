@@ -1,0 +1,54 @@
+.container_main{
+    background-color: #FFFFFF;
+}
+
+.titulo_main{
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px 0;
+    text-decoration: underline;
+}
+
+.imagem{
+    float: left;
+    width: 200px;
+    padding: 35px 20px 20px 20px;
+}
+
+.container_paragrafo{
+    padding: 20px 50px 10px 0;
+}
+
+.texto{
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 300px;
+}
+
+.ficha{
+    padding-top: 10px;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 300px;
+}
+
+.titulo_ficha{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.item_ficha{
+    padding: 5px;
+}
+
+.referencia{
+    font-size: 15px;
+    padding: 15px 0 10px 20px;
+    width: 50%;
+}
+
+.link{
+    font-style: italic;
+}

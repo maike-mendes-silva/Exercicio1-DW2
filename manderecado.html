@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Ribamar: The Goat</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/manderecado.css">
+    <script src="js/formulario.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+
+        <div class="container_cabecalho">
+            <div class="titulo_cabecalho">
+                <a class="link_titulo" href="index.html">
+                    <h1>RIBAMAR: THE G.O.A.T</h1>
+                </a>
+            </div>
+
+            <nav class="container_menu">
+                <ul class="menu_nav">
+                    <li class="item_menu"><a class="link_menu" href="queme.html">Quem é?</a></li>
+                    <li class="item_menu"><a class="link_menu" href="formacao.html">Formação</a></li>
+                    <li class="item_menu"><a class="link_menu" href="atuacaoprofissional.html">Atuação Profissional</a>
+                    </li>
+                    <li class="item_menu"><a class="link_menu" href="atividadesdesenvolvidas.html">Atividades
+                            Desenvolvidas</a></li>
+                    <li class="item_menu"><a class="link_menu" href="conhecimento.html">Conhecimento</a></li>
+                    <li class="item_menu"><a class="link_menu" href="hobby.html">Hobby</a></li>
+                    <li class="item_menu"><a class="link_menu" href="manderecado.html">Mande Recado</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container_main">
+            <h1 class="titulo_main">
+                Mande Recado
+            </h1>
+            <div class="container_imagem">
+                <img class="imagem" src="imagens/ribamar9.png">
+                <p class="legenda_imagem">Fale com o mito!</p>
+            </div>
+            <form id="formContato" method="POST" onsubmit="return validarCampo()">
+                <span class="msgErro" id="msgErro_nome"></span>
+                <div class="container_campo">
+                    <label class="legenda">Nome Completo</label>
+                    <input class="input-padrao" type="text" id="nomesobrenome">
+                </div>
+
+                <span class="msgErro" id="msgErro_email"></span>
+                <div class="container_campo">
+                    <label class="legenda">E-mail</label>
+                    <input class="input-padrao" type="text" id="email" placeholder="  seuemail@dominio.com">
+                </div>
+
+                <span class="msgErro" id="msgErro_telefone"></span>
+                <div class="container_campo">
+                    <labe class="legenda"l>Telefone</label>
+                    <input class="input-padrao" type="tel" id="telefone" placeholder="  (XX) XXXXX-XXXX">
+                </div>
+
+                <span class="msgErro" id="msgErro_mensagem"></span>
+                <div class="container_campo">
+                    <label class="legenda">Mensagem</label>
+                    <textarea class="input-padrao" cols="40" rows="5" id="mensagem"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar" class="enviar">
+
+            </form>
+    </main>
+
+    <footer class="rodape">
+        <p class="frase1">© Maike Mendes Silva - 2021</p>
+        <p class="frase2">"Não vi Pelé, não vi Maradona, mas vi Ribamar"
+        <p>
+    </footer>
+</body>
+
+</html>

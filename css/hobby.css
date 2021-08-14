@@ -1,0 +1,30 @@
+.titulo_main{
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px 0;
+    text-decoration: underline;
+}
+
+.container_paragrafo{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300px;
+    width: 85%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.imagem{
+    padding: 20px 0 0 0;
+}
+
+.obs{
+    font-size: 15px;
+    font-style: italic;
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 10px;
+}
