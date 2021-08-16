@@ -14,7 +14,8 @@
 .imagem{
     width: 200px;
     float: right;
-    padding: 0 100px 0 50px;
+    margin: 0 100px 0 50px;
+    border-radius: 5px;
 }
 
 .container_paragrafo{
