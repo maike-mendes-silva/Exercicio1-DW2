@@ -17,7 +17,8 @@
 }
 
 .imagem{
-    padding: 20px 0 0 0;
+    margin: 20px 0 0 0;
+    border-radius: 5px;
 }
 
 .obs{
